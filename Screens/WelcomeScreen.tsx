@@ -65,7 +65,6 @@ const styles = StyleSheet.create({
   },
   button: {
     padding: 10,
-    height: 100,
     width: 300,
   },
 });

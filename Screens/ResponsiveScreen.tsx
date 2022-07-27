@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
-function ResponsiveScreen({ navigation } : any) {
+function ResponsiveScreen() {
   return (
     <View style={styles.body}>
       <View style={styles.view1}>

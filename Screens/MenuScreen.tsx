@@ -23,6 +23,12 @@ function MenuScreen({ navigation } : any) {
           onPress={() => navigation.navigate('ResponsiveExercise')}
         />
       </View>
+      <View style={styles.button}>
+        <Button
+          title="ScrollView"
+          onPress={() => navigation.navigate('ScrollView')}
+        />
+      </View>
     </View>
   );
 }

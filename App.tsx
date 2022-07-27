@@ -5,6 +5,7 @@ import MenuScreen from './Screens/MenuScreen';
 import WelcomeScreen from './Screens/WelcomeScreen';
 import ResponsiveScreen from './Screens/ResponsiveScreen';
 import ResponsiveExerciseScreen from './Screens/ResponsiveExerciseScreen';
+import ScrollViewScreen from './Screens/ScrollViewScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,6 +17,7 @@ function App() {
         <Stack.Screen name="Welcome" component={WelcomeScreen} /*options={{header: () => null}}*/ />
         <Stack.Screen name="Responsive" component={ResponsiveScreen} />
         <Stack.Screen name="ResponsiveExercise" component={ResponsiveExerciseScreen} />
+        <Stack.Screen name="ScrollView" component={ScrollViewScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

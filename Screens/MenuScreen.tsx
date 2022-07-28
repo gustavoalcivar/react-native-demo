@@ -29,6 +29,18 @@ function MenuScreen({ navigation } : any) {
           onPress={() => navigation.navigate('ScrollView')}
         />
       </View>
+      <View style={styles.button}>
+        <Button
+          title="FlatList"
+          onPress={() => navigation.navigate('FlatList')}
+        />
+      </View>
+      <View style={styles.button}>
+        <Button
+          title="SectionList"
+          onPress={() => navigation.navigate('SectionList')}
+        />
+      </View>
     </View>
   );
 }

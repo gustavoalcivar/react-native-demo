@@ -6,6 +6,8 @@ import WelcomeScreen from './Screens/WelcomeScreen';
 import ResponsiveScreen from './Screens/ResponsiveScreen';
 import ResponsiveExerciseScreen from './Screens/ResponsiveExerciseScreen';
 import ScrollViewScreen from './Screens/ScrollViewScreen';
+import FlatListScreen from './Screens/FlatListScreen';
+import SectionListScreen from './Screens/SectionListScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +20,8 @@ function App() {
         <Stack.Screen name="Responsive" component={ResponsiveScreen} />
         <Stack.Screen name="ResponsiveExercise" component={ResponsiveExerciseScreen} />
         <Stack.Screen name="ScrollView" component={ScrollViewScreen} />
+        <Stack.Screen name="FlatList" component={FlatListScreen} />
+        <Stack.Screen name="SectionList" component={SectionListScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

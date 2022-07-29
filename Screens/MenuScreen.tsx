@@ -41,6 +41,12 @@ function MenuScreen({ navigation } : any) {
           onPress={() => navigation.navigate('SectionList')}
         />
       </View>
+      <View style={styles.button}>
+        <Button
+          title="TextInput"
+          onPress={() => navigation.navigate('TextInput')}
+        />
+      </View>
     </View>
   );
 }

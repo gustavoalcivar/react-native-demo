@@ -8,6 +8,7 @@ import ResponsiveExerciseScreen from './Screens/ResponsiveExerciseScreen';
 import ScrollViewScreen from './Screens/ScrollViewScreen';
 import FlatListScreen from './Screens/FlatListScreen';
 import SectionListScreen from './Screens/SectionListScreen';
+import TextInputScreen from './Screens/TextInput';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +23,7 @@ function App() {
         <Stack.Screen name="ScrollView" component={ScrollViewScreen} />
         <Stack.Screen name="FlatList" component={FlatListScreen} />
         <Stack.Screen name="SectionList" component={SectionListScreen} />
+        <Stack.Screen name="TextInput" component={TextInputScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -43,7 +43,7 @@ function MenuScreen({ navigation } : any) {
       </View>
       <View style={styles.button}>
         <Button
-          title="TextInput"
+          title="TextInput/Button/Alert"
           onPress={() => navigation.navigate('TextInput')}
         />
       </View>

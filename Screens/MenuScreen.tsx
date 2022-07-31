@@ -47,6 +47,12 @@ function MenuScreen({ navigation } : any) {
           onPress={() => navigation.navigate('TextInput')}
         />
       </View>
+      <View style={styles.button}>
+        <Button
+          title="Image"
+          onPress={() => navigation.navigate('Image')}
+        />
+      </View>
     </View>
   );
 }

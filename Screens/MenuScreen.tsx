@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Button, View, Text, StyleSheet } from 'react-native';
-
 function MenuScreen({ navigation } : any) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -8,7 +7,7 @@ function MenuScreen({ navigation } : any) {
       <View style={styles.button}>
         <Button
           title="Welcome"
-          onPress={() => navigation.navigate('Welcome')}
+          onPress={() => navigation.navigate('Welcome2')}
         />
       </View>
       <View style={styles.button}>
@@ -44,7 +43,7 @@ function MenuScreen({ navigation } : any) {
       <View style={styles.button}>
         <Button
           title="TextInput/Button/Alert"
-          onPress={() => navigation.navigate('TextInput')}
+          onPress={() => navigation.navigate('TextInput', {ItemsNumber: 10})}
         />
       </View>
       <View style={styles.button}>

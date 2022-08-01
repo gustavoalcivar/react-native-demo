@@ -14,12 +14,13 @@ import {
     View,
 } from 'react-native';
 
-const TextInputScreen = () => {
+const TextInputScreen = ({navigation, route} : any) => {
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
     const [submitted, setSubmitted] = useState(false);
     const [showModal, setShowModal] = useState(false);
     const onPressHandler = () => {
+      navigation.setParams({ItemsNumber: 11});
       if(name.length > 0)
         setSubmitted(!submitted);
       else {
@@ -34,8 +35,10 @@ const TextInputScreen = () => {
         ToastAndroid.showWithGravityAndOffset('The name must not be blank', ToastAndroid.LONG, ToastAndroid.TOP, 0, 300);
       }
     }
+    const {ItemsNumber} = route.params;
   return (
     <View style={styles.body}>
+      <Text style={styles.text}>Items number from menu: {ItemsNumber}</Text>
       <Modal
         visible={showModal}
         transparent

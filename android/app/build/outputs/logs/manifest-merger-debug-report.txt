@@ -10,6 +10,7 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/gustavo/
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/gustavo/.gradle/caches/transforms-3/f44fabc0c63e4f50414cacc966832aff/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-safe-area-context] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.69.1] /home/gustavo/.gradle/caches/transforms-3/ad1868fce16913a195c4e3d35d5c12bb/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gustavo/.gradle/caches/transforms-3/59db212543bf6847d500bc32383c75b1/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r250230] /home/gustavo/.gradle/caches/transforms-3/3f83c266ccac6c7f2b518a076620525f/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
@@ -178,6 +179,8 @@ MERGED from [:react-native-safe-area-context] /home/gustavo/Mega/react-native/Aw
 MERGED from [:react-native-safe-area-context] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/gustavo/Mega/react-native/AwesomeTSProject/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.69.1] /home/gustavo/.gradle/caches/transforms-3/ad1868fce16913a195c4e3d35d5c12bb/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.69.1] /home/gustavo/.gradle/caches/transforms-3/ad1868fce16913a195c4e3d35d5c12bb/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gustavo/.gradle/caches/transforms-3/59db212543bf6847d500bc32383c75b1/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
